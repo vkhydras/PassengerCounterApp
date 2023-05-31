@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter app</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <script src="index.js"></script>
+
+    <body>
+
+        <div class="container">
+            <div class="container2">
+                <h1>People entered:</h1>
+                <div class="count">
+                    <h2 id="count-el">0</h2>
+                </div>
+                <button id="increment" onclick="add()">INCREMENT(+1)</button><br>
+                <button id="save" onclick="save()">SAVE</button>
+                <div class="text">
+                    <p id="previous" class="previous"><i>Previous entries:</i></p>
+                </div>
+                <p id="lastsave">Last save was</p>
+                <button id="total" onclick="total()">TOTAL</button>
+                <P id="sum"></P>
+            </div>
+        </div>
+
+    </body>
+</html>
