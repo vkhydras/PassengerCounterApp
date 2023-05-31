@@ -1,8 +1,9 @@
 body{
-    display: flex;
+    
     justify-content: center;
     color: white;
     font-weight: bolder;
+    flex-direction: column;
 }
 .container{
     background-image: url(./img/image_search_1685538732493.jpg);
@@ -48,6 +49,14 @@ body{
     font-size: 20px;
     color: azure;
     border-radius: 10px;
+}
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 @media only screen and(max-width:500) {
