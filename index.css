@@ -43,3 +43,58 @@ body{
 #save{
     background-color: green;
 }
+#total{
+    background-color: blue;
+    font-size: 20px;
+    color: azure;
+    border-radius: 10px;
+}
+
+@media only screen and(max-width:500) {
+    .container{
+        background-image: url(./img/image_search_1685538732493.jpg);
+        min-width: 350px;
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+        
+    }
+    
+    .count{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    
+    #increment,#save{
+        width: 200px;
+        font-size: 20px;
+        border-radius: 10px;
+        
+    }
+    .text{
+        display: flex;
+        width: 200px;
+    }
+    #increment{
+        margin-bottom: 10px;
+        background-color: darkblue;
+        color: white;
+    }
+    #save{
+        background-color: green;
+    }
+    #total{
+        background-color: blue;
+        font-size: 20px;
+        color: azure;
+        border-radius: 10px;
+    }
+    
+}
